@@ -1,0 +1,11 @@
+model = php artisan make:model ModelName
+controller = php artisan make:Controller ControllerNameController
+migration = php artisan make:migration create_migrations_table
+request = php artisan make:request RequestNameRequest
+
+
+Vue:
+install: 
+    npm install -g vue-cli
+    vue init webpack
+    npm install axios and vue-axios
